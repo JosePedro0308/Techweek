@@ -15,8 +15,11 @@
    <body>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-         <nav class="nav container">
-            <a href="#" class="nav__logo">Logo</a>
+      <nav class="nav container">
+  <a href="#" class="nav__logo">
+    <img src="src/Logo.png" class="logo-img">
+  </a>
+
 
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
@@ -48,19 +51,18 @@
                      </a>
                   </li>
 
-                  <li class="nav__item">
+                  <li class="nav__item nav__item--login" id="BtnLogin">
                      <a href="#" class="nav__link">
-                        <i class="ri-arrow-right-up-line"></i>
-                        <span>Contact</span>
+                     <span>Login</span>
                      </a>
                   </li>
-               </ul>
+
 
                <!-- Close button -->
                <div class="nav__close" id="nav-close">
                   <i class="ri-close-large-line"></i>
                </div>
-
+<!-- 
                <div class="nav__social">
                   <a href="https://www.instagram.com/" target="_blank" class="nav__social-link">
                      <i class="ri-instagram-line"></i>
@@ -77,7 +79,7 @@
                   <a href="https://www.linkedin.com/" target="_blank" class="nav__social-link">
                      <i class="ri-linkedin-box-line"></i>
                   </a>
-               </div>
+               </div> -->
             </div>
 
             <!-- Toggle button -->
@@ -87,11 +89,47 @@
          </nav>
       </header>
 
-      <!--==================== MAIN ====================-->
+
       <main>
-         <!-- Insert page sections -->
-      </main>
-      
+         <!-- BANNER -->
+  <section class="banner">
+    <div class="banner__content">
+    </div>
+  </section>
+<!-- O que é a TECHWEEK -->
+  <section class="info section">
+    <div class="info__container container grid">
+      <div class="info__data">
+        <h2 class="info__title">Sobre a TechWeek</h2>
+        <p class="info__description">Discover our services and offerings. We provide top-notch solutions to meet your needs.</p>
+      </div>
+      </section>
+
+        <!-- DIAS -->
+         <section>
+         <div class="info__days">
+            <div class="info__day">
+               <span class="info__day-name">Dia 1</span>
+            </div>
+            <div class="info__day">
+               <span class="info__day-name">Dia 2</span>
+            </div>
+            <div class="info__day">
+               <span class="info__day-name">Dia 3</span>
+            </div>
+            <div class="info__day">
+               <span class="info__day-name">Dia 4</span>
+            </div>
+            </section>
+
+           <section >
+         <div class="Paletrantes__container container grid">
+               <span class="Paletrantes">Teste</span>
+            </div> 
+            </section>    
+      </section>
+</main>
+
       <!--=============== MAIN JS ===============-->
       <script src="main.js"></script>
    </body>

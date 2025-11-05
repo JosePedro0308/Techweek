@@ -15,3 +15,6 @@ if(navClose){
       navMenu.classList.remove('show-menu')
    })
 }
+document.getElementById("BtnLogin").addEventListener("click", function() {
+  window.location.href = "../index.html";
+});
